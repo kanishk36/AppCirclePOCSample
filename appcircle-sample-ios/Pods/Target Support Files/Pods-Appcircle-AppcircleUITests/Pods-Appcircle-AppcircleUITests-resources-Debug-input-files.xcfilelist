@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests-resources.sh
+${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/Resources/GoogleMaps.bundle
+${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.xcframework/ios-arm64_x86_64-simulator/GoogleMaps.framework/Resources/GoogleMaps.bundle
+${PODS_ROOT}/GoogleTagManager/Frameworks/GoogleTagManager.xcframework/Resources/TagManagerResources.bundle
+${PODS_ROOT}/MFSDKHybridKit/MFSDKMessagingKit.framework/MFSDKMessagingKit.momd
+${PODS_ROOT}/MFSDKHybridKit/MFSDKMessagingKit.framework/MFSDKMessagingKit.momd/MFSDKMessagingKit.mom
+${PODS_ROOT}/MFSDKHybridKit/MFSDKMessagingKit.framework/MFSDKMessagingKit.momd/VersionInfo.plist
+${PODS_ROOT}/MFSDKHybridKit/MFSDKMessagingKit.framework/MFLanguages.json
