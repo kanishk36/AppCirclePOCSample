@@ -7,6 +7,7 @@
 
 import SwiftUI
 import FizzBuzzKit
+import Flutter
 
 struct FizzBuzzView: View {
     var number: Int
@@ -34,9 +35,34 @@ struct ContentView: View {
                 Text("Number")
             }
             FizzBuzzView(number: Int(numberString) ?? 0)
+            
+            Button("Show Flutter!") {
+                openFlutterApp()
+            }
         }
 
     }
+    
+    func openFlutterApp() {
+        // Get the RootViewController.
+        guard
+          let windowScene = UIApplication.shared.connectedScenes
+            .first(where: { $0.activationState == .foregroundActive && $0 is UIWindowScene }) as? UIWindowScene,
+          let window = windowScene.windows.first(where: \.isKeyWindow),
+          let rootViewController = window.rootViewController
+        else { return }
+
+        // Create the FlutterViewController without an existing FlutterEngine.
+        let flutterViewController = FlutterViewController(
+          project: nil,
+          nibName: nil,
+          bundle: nil)
+        flutterViewController.modalPresentationStyle = .overCurrentContext
+        flutterViewController.isViewOpaque = false
+
+        rootViewController.present(flutterViewController, animated: true)
+    }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

@@ -41,7 +41,7 @@ target 'Appcircle' do
   
   # Flutter sdk Pods
   #pod 'Flutter', :podspec => '../appcircle-sample-ios/FlutterSDK/Debug/Flutter.podspec' # This pod is for Debug version
-  #pod 'Flutter', :podspec => '../appcircle-sample-ios/FlutterSDK/Release/Flutter.podspec' # This pod is for Release version
+  pod 'Flutter', :podspec => '../appcircle-sample-ios/FlutterSDK/Release/Flutter.podspec' # This pod is for Release version
 
   target 'AppcircleTests' do
     inherit! :search_paths
