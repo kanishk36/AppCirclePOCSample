@@ -40,6 +40,7 @@ target 'Appcircle' do
   pod 'lottie-ios', '3.5.0'
   
   # Flutter sdk Pods
+  #pod 'Flutter', :podspec => '../appcircle-sample-ios/FlutterSDK/Debug/Flutter.podspec' # This pod is for Debug version
   #pod 'Flutter', :podspec => '../appcircle-sample-ios/FlutterSDK/Release/Flutter.podspec' # This pod is for Release version
 
   target 'AppcircleTests' do
