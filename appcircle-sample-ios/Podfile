@@ -38,6 +38,9 @@ target 'Appcircle' do
   pod 'MFSDKHybridKit', '2.7.43'
   source 'https://github.com/CocoaPods/Specs.git'
   pod 'lottie-ios', '3.5.0'
+  
+  # Flutter sdk Pods
+  #pod 'Flutter', :podspec => '../appcircle-sample-ios/FlutterSDK/Release/Flutter.podspec' # This pod is for Release version
 
   target 'AppcircleTests' do
     inherit! :search_paths
