@@ -31,7 +31,7 @@ public enum MenuItemDisplayMode {
 }
 
 public struct MenuItemText {
-    let text: String
+    public let text: String
     let color: UIColor
     let selectedColor: UIColor
     let font: UIFont
