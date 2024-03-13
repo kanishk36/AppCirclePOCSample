@@ -24,7 +24,6 @@ ${PODS_ROOT}/MorfeusVoiceKit/openssl.framework
 ${PODS_ROOT}/MorfeusVoiceKit/Protobuf.framework
 ${PODS_ROOT}/MorfeusVoiceKit/ProtoRPC.framework
 ${PODS_ROOT}/MorfeusVoiceKit/RxLibrary.framework
-${BUILT_PRODUCTS_DIR}/PagingMenuController/PagingMenuController.framework
 ${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework
 ${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
 ${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
