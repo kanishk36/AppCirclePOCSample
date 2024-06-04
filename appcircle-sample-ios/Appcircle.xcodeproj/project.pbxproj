@@ -711,8 +711,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development: Rohit Dhiman (9TD95386RV)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development: Rohit Dhiman (9TD95386RV)";
+				CODE_SIGN_IDENTITY = "Apple Distribution: FIRST ABU DHABI BANK PJSC (6QTVP9MP3C)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: FIRST ABU DHABI BANK PJSC (6QTVP9MP3C)";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Appcircle/Preview Content\"";
