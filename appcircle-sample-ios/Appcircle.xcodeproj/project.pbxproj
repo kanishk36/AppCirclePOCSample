@@ -15,6 +15,7 @@
 		450FAD77277C4BBF00C3060D /* AppcircleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FAD76277C4BBF00C3060D /* AppcircleTests.swift */; };
 		450FAD81277C4BBF00C3060D /* AppcircleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FAD80277C4BBF00C3060D /* AppcircleUITests.swift */; };
 		450FAD83277C4BBF00C3060D /* AppcircleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FAD82277C4BBF00C3060D /* AppcircleUITestsLaunchTests.swift */; };
+		482E9F5A2C106E04001B242C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 482E9F592C106E04001B242C /* StoreKit.framework */; };
 		483196B32AA6F60A0004A94F /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 483196B22AA6F60A0004A94F /* App.xcframework */; };
 		483196B42AA6F60A0004A94F /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 483196B22AA6F60A0004A94F /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4EA0D06BA35F467233A7DE49 /* Pods_Appcircle_AppcircleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A67DFDFD049999001F095FCF /* Pods_Appcircle_AppcircleUITests.framework */; };
@@ -66,6 +67,9 @@
 		450FAD80277C4BBF00C3060D /* AppcircleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppcircleUITests.swift; sourceTree = "<group>"; };
 		450FAD82277C4BBF00C3060D /* AppcircleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppcircleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		450FAD8F277C4C4600C3060D /* FizzBuzzKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = FizzBuzzKit; sourceTree = "<group>"; };
+		482E9F582C106A24001B242C /* Appcircle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Appcircle.entitlements; sourceTree = "<group>"; };
+		482E9F592C106E04001B242C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		482E9F5B2C106E89001B242C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		483196B22AA6F60A0004A94F /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = FlutterSDK/Release/App.xcframework; sourceTree = "<group>"; };
 		57F20309CAF7DF601A960180 /* Pods-AppcircleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppcircleTests.debug.xcconfig"; path = "Target Support Files/Pods-AppcircleTests/Pods-AppcircleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		861B55A207C8F1177BDF118B /* Pods-Appcircle-AppcircleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcircle-AppcircleUITests.debug.xcconfig"; path = "Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				482E9F5A2C106E04001B242C /* StoreKit.framework in Frameworks */,
 				483196B32AA6F60A0004A94F /* App.xcframework in Frameworks */,
 				BBE384D43FE0987DF25E4283 /* Pods_Appcircle.framework in Frameworks */,
 			);
@@ -131,6 +136,8 @@
 		450FAD64277C4BBC00C3060D /* Appcircle */ = {
 			isa = PBXGroup;
 			children = (
+				482E9F5B2C106E89001B242C /* Info.plist */,
+				482E9F582C106A24001B242C /* Appcircle.entitlements */,
 				450FAD65277C4BBC00C3060D /* AppcircleApp.swift */,
 				450FAD67277C4BBC00C3060D /* ContentView.swift */,
 				450FAD69277C4BBF00C3060D /* Assets.xcassets */,
@@ -180,6 +187,7 @@
 		D0954F1F725C9332124D907B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				482E9F592C106E04001B242C /* StoreKit.framework */,
 				483196B22AA6F60A0004A94F /* App.xcframework */,
 				E06FE3692ACFDE63B8415D88 /* Pods_Appcircle.framework */,
 				A67DFDFD049999001F095FCF /* Pods_Appcircle_AppcircleUITests.framework */,
@@ -623,6 +631,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Appcircle/Appcircle.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development: Rohit Dhiman (9TD95386RV)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development: Rohit Dhiman (9TD95386RV)";
 				CODE_SIGN_STYLE = Manual;
@@ -685,6 +694,7 @@
 					"$(PROJECT_DIR)/FlutterSDK/$(CONFIGURATION)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Appcircle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -711,6 +721,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Appcircle/Appcircle.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Distribution: FIRST ABU DHABI BANK PJSC (6QTVP9MP3C)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: FIRST ABU DHABI BANK PJSC (6QTVP9MP3C)";
 				CODE_SIGN_STYLE = Manual;
@@ -773,6 +784,7 @@
 					"$(PROJECT_DIR)/FlutterSDK/$(CONFIGURATION)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Appcircle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
