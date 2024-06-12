@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31C245E2250B28BCCAD010F2 /* Pods_AppcircleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EA4559E477E075FA4B47E0 /* Pods_AppcircleTests.framework */; };
-		34421C7182EF7AC6045771BE /* Pods_Appcircle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BDF5FFCE4DAD8CE264FCF9 /* Pods_Appcircle.framework */; };
 		450FAD66277C4BBC00C3060D /* AppcircleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FAD65277C4BBC00C3060D /* AppcircleApp.swift */; };
 		450FAD68277C4BBC00C3060D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FAD67277C4BBC00C3060D /* ContentView.swift */; };
 		450FAD6A277C4BBF00C3060D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450FAD69277C4BBF00C3060D /* Assets.xcassets */; };
@@ -16,10 +14,12 @@
 		450FAD77277C4BBF00C3060D /* AppcircleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FAD76277C4BBF00C3060D /* AppcircleTests.swift */; };
 		450FAD81277C4BBF00C3060D /* AppcircleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FAD80277C4BBF00C3060D /* AppcircleUITests.swift */; };
 		450FAD83277C4BBF00C3060D /* AppcircleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FAD82277C4BBF00C3060D /* AppcircleUITestsLaunchTests.swift */; };
-		47E25C7814A640D2407EA112 /* Pods_Appcircle_AppcircleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410C7B3EBFA53E1FA4032435 /* Pods_Appcircle_AppcircleUITests.framework */; };
 		482E9F5A2C106E04001B242C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 482E9F592C106E04001B242C /* StoreKit.framework */; };
 		483196B32AA6F60A0004A94F /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 483196B22AA6F60A0004A94F /* App.xcframework */; };
 		483196B42AA6F60A0004A94F /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 483196B22AA6F60A0004A94F /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		57C0D42BE5B9EC6F43866AC4 /* Pods_Appcircle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2102F69C9B3206E6CB4D1097 /* Pods_Appcircle.framework */; };
+		A7718715608871DD79E1F09B /* Pods_Appcircle_AppcircleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65CB829A227CCEA35B2B3F23 /* Pods_Appcircle_AppcircleUITests.framework */; };
+		B9E3FB5CA1889F2244F86617 /* Pods_AppcircleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A35A536F3B59A8A28E6D4E5 /* Pods_AppcircleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +54,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		029A37AD9E3A76E5423BF6DB /* Pods-AppcircleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppcircleTests.debug.xcconfig"; path = "Target Support Files/Pods-AppcircleTests/Pods-AppcircleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		03AFC84C5F08F76D982AA116 /* Pods-Appcircle-AppcircleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcircle-AppcircleUITests.debug.xcconfig"; path = "Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		17BDF5FFCE4DAD8CE264FCF9 /* Pods_Appcircle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appcircle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18EA4559E477E075FA4B47E0 /* Pods_AppcircleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppcircleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2068873229B336111CE50B13 /* Pods-AppcircleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppcircleTests.release.xcconfig"; path = "Target Support Files/Pods-AppcircleTests/Pods-AppcircleTests.release.xcconfig"; sourceTree = "<group>"; };
-		410C7B3EBFA53E1FA4032435 /* Pods_Appcircle_AppcircleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appcircle_AppcircleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2102F69C9B3206E6CB4D1097 /* Pods_Appcircle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appcircle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DAB4160FB94E1635431D897 /* Pods-Appcircle-AppcircleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcircle-AppcircleUITests.debug.xcconfig"; path = "Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		450FAD62277C4BBC00C3060D /* Appcircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appcircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		450FAD65277C4BBC00C3060D /* AppcircleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppcircleApp.swift; sourceTree = "<group>"; };
 		450FAD67277C4BBC00C3060D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,9 +71,13 @@
 		482E9F592C106E04001B242C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		482E9F5B2C106E89001B242C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		483196B22AA6F60A0004A94F /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = FlutterSDK/Release/App.xcframework; sourceTree = "<group>"; };
-		593855C4E49FDAA516EB1ED7 /* Pods-Appcircle-AppcircleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcircle-AppcircleUITests.release.xcconfig"; path = "Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		79388E7B53E09509201E9264 /* Pods-Appcircle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcircle.debug.xcconfig"; path = "Target Support Files/Pods-Appcircle/Pods-Appcircle.debug.xcconfig"; sourceTree = "<group>"; };
-		79ECA32336F31F092DE21EA4 /* Pods-Appcircle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcircle.release.xcconfig"; path = "Target Support Files/Pods-Appcircle/Pods-Appcircle.release.xcconfig"; sourceTree = "<group>"; };
+		5A8821616204F07CDB2418AD /* Pods-Appcircle-AppcircleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcircle-AppcircleUITests.release.xcconfig"; path = "Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		65CB829A227CCEA35B2B3F23 /* Pods_Appcircle_AppcircleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appcircle_AppcircleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A35A536F3B59A8A28E6D4E5 /* Pods_AppcircleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppcircleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF393CF0D4706C06B266F11 /* Pods-AppcircleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppcircleTests.debug.xcconfig"; path = "Target Support Files/Pods-AppcircleTests/Pods-AppcircleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		831FBECDDC894AA047F07569 /* Pods-AppcircleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppcircleTests.release.xcconfig"; path = "Target Support Files/Pods-AppcircleTests/Pods-AppcircleTests.release.xcconfig"; sourceTree = "<group>"; };
+		846BD209F5F99A7741853843 /* Pods-Appcircle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcircle.debug.xcconfig"; path = "Target Support Files/Pods-Appcircle/Pods-Appcircle.debug.xcconfig"; sourceTree = "<group>"; };
+		8AB16BC22D176D4F873895CE /* Pods-Appcircle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcircle.release.xcconfig"; path = "Target Support Files/Pods-Appcircle/Pods-Appcircle.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 			files = (
 				482E9F5A2C106E04001B242C /* StoreKit.framework in Frameworks */,
 				483196B32AA6F60A0004A94F /* App.xcframework in Frameworks */,
-				34421C7182EF7AC6045771BE /* Pods_Appcircle.framework in Frameworks */,
+				57C0D42BE5B9EC6F43866AC4 /* Pods_Appcircle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31C245E2250B28BCCAD010F2 /* Pods_AppcircleTests.framework in Frameworks */,
+				B9E3FB5CA1889F2244F86617 /* Pods_AppcircleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47E25C7814A640D2407EA112 /* Pods_Appcircle_AppcircleUITests.framework in Frameworks */,
+				A7718715608871DD79E1F09B /* Pods_Appcircle_AppcircleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,12 +174,12 @@
 		4CCCF2231CB3288132FA1751 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				79388E7B53E09509201E9264 /* Pods-Appcircle.debug.xcconfig */,
-				79ECA32336F31F092DE21EA4 /* Pods-Appcircle.release.xcconfig */,
-				03AFC84C5F08F76D982AA116 /* Pods-Appcircle-AppcircleUITests.debug.xcconfig */,
-				593855C4E49FDAA516EB1ED7 /* Pods-Appcircle-AppcircleUITests.release.xcconfig */,
-				029A37AD9E3A76E5423BF6DB /* Pods-AppcircleTests.debug.xcconfig */,
-				2068873229B336111CE50B13 /* Pods-AppcircleTests.release.xcconfig */,
+				846BD209F5F99A7741853843 /* Pods-Appcircle.debug.xcconfig */,
+				8AB16BC22D176D4F873895CE /* Pods-Appcircle.release.xcconfig */,
+				2DAB4160FB94E1635431D897 /* Pods-Appcircle-AppcircleUITests.debug.xcconfig */,
+				5A8821616204F07CDB2418AD /* Pods-Appcircle-AppcircleUITests.release.xcconfig */,
+				7FF393CF0D4706C06B266F11 /* Pods-AppcircleTests.debug.xcconfig */,
+				831FBECDDC894AA047F07569 /* Pods-AppcircleTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -189,9 +189,9 @@
 			children = (
 				482E9F592C106E04001B242C /* StoreKit.framework */,
 				483196B22AA6F60A0004A94F /* App.xcframework */,
-				17BDF5FFCE4DAD8CE264FCF9 /* Pods_Appcircle.framework */,
-				410C7B3EBFA53E1FA4032435 /* Pods_Appcircle_AppcircleUITests.framework */,
-				18EA4559E477E075FA4B47E0 /* Pods_AppcircleTests.framework */,
+				2102F69C9B3206E6CB4D1097 /* Pods_Appcircle.framework */,
+				65CB829A227CCEA35B2B3F23 /* Pods_Appcircle_AppcircleUITests.framework */,
+				7A35A536F3B59A8A28E6D4E5 /* Pods_AppcircleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -203,13 +203,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 450FAD86277C4BBF00C3060D /* Build configuration list for PBXNativeTarget "Appcircle" */;
 			buildPhases = (
-				D076B29E28DADE7E5C08CE8C /* [CP] Check Pods Manifest.lock */,
+				945F1019B2B6196FC1121AC8 /* [CP] Check Pods Manifest.lock */,
 				450FAD5E277C4BBC00C3060D /* Sources */,
 				450FAD5F277C4BBC00C3060D /* Frameworks */,
 				450FAD60277C4BBC00C3060D /* Resources */,
 				483196B52AA6F60A0004A94F /* Embed Frameworks */,
-				E9F836EF510EBB9F71F87D62 /* [CP] Embed Pods Frameworks */,
-				B7D1EB0B6DB15F6160A1FA19 /* [CP] Copy Pods Resources */,
+				2C5DC72A65D6DD506BD83A34 /* [CP] Embed Pods Frameworks */,
+				431BEC3193349D473AF8EE6B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,7 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 450FAD89277C4BBF00C3060D /* Build configuration list for PBXNativeTarget "AppcircleTests" */;
 			buildPhases = (
-				CD0AD3D8E7EDB5ABEB500B20 /* [CP] Check Pods Manifest.lock */,
+				D2A7A222A1212AB10D70C1E0 /* [CP] Check Pods Manifest.lock */,
 				450FAD6E277C4BBF00C3060D /* Sources */,
 				450FAD6F277C4BBF00C3060D /* Frameworks */,
 				450FAD70277C4BBF00C3060D /* Resources */,
@@ -243,12 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 450FAD8C277C4BBF00C3060D /* Build configuration list for PBXNativeTarget "AppcircleUITests" */;
 			buildPhases = (
-				E720059816641FADD80B1B83 /* [CP] Check Pods Manifest.lock */,
+				D1E11BA1B9A5DF9C86DDEA3B /* [CP] Check Pods Manifest.lock */,
 				450FAD78277C4BBF00C3060D /* Sources */,
 				450FAD79277C4BBF00C3060D /* Frameworks */,
 				450FAD7A277C4BBF00C3060D /* Resources */,
-				D4557409323B4F892A8ADC84 /* [CP] Embed Pods Frameworks */,
-				BB751A12ABCE34E0278102C2 /* [CP] Copy Pods Resources */,
+				5744069CA215AB8B60B91D8F /* [CP] Embed Pods Frameworks */,
+				721FB5BC80335AD0035F16AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -330,7 +330,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B7D1EB0B6DB15F6160A1FA19 /* [CP] Copy Pods Resources */ = {
+		2C5DC72A65D6DD506BD83A34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appcircle/Pods-Appcircle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appcircle/Pods-Appcircle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Appcircle/Pods-Appcircle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		431BEC3193349D473AF8EE6B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -347,7 +364,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Appcircle/Pods-Appcircle-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BB751A12ABCE34E0278102C2 /* [CP] Copy Pods Resources */ = {
+		5744069CA215AB8B60B91D8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		721FB5BC80335AD0035F16AA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -364,29 +398,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CD0AD3D8E7EDB5ABEB500B20 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AppcircleTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D076B29E28DADE7E5C08CE8C /* [CP] Check Pods Manifest.lock */ = {
+		945F1019B2B6196FC1121AC8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -408,24 +420,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D4557409323B4F892A8ADC84 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E720059816641FADD80B1B83 /* [CP] Check Pods Manifest.lock */ = {
+		D1E11BA1B9A5DF9C86DDEA3B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -447,21 +442,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E9F836EF510EBB9F71F87D62 /* [CP] Embed Pods Frameworks */ = {
+		D2A7A222A1212AB10D70C1E0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Appcircle/Pods-Appcircle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Appcircle/Pods-Appcircle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppcircleTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Appcircle/Pods-Appcircle-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -627,7 +627,7 @@
 		};
 		450FAD87277C4BBF00C3060D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79388E7B53E09509201E9264 /* Pods-Appcircle.debug.xcconfig */;
+			baseConfigurationReference = 846BD209F5F99A7741853843 /* Pods-Appcircle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -635,7 +635,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development: Rohit Dhiman (9TD95386RV)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development: Rohit Dhiman (9TD95386RV)";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 47;
 				DEVELOPMENT_ASSET_PATHS = "\"Appcircle/Preview Content\"";
 				DEVELOPMENT_TEAM = 6QTVP9MP3C;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6QTVP9MP3C;
@@ -704,7 +704,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 6.06;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fab.PersonalBanking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = ios_pb_dev;
@@ -717,7 +717,7 @@
 		};
 		450FAD88277C4BBF00C3060D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79ECA32336F31F092DE21EA4 /* Pods-Appcircle.release.xcconfig */;
+			baseConfigurationReference = 8AB16BC22D176D4F873895CE /* Pods-Appcircle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -725,7 +725,7 @@
 				CODE_SIGN_IDENTITY = "Apple Distribution: FIRST ABU DHABI BANK PJSC (6QTVP9MP3C)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: FIRST ABU DHABI BANK PJSC (6QTVP9MP3C)";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 47;
 				DEVELOPMENT_ASSET_PATHS = "\"Appcircle/Preview Content\"";
 				DEVELOPMENT_TEAM = 6QTVP9MP3C;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6QTVP9MP3C;
@@ -794,7 +794,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 6.06;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fab.PersonalBanking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = FABDistributionPP;
@@ -807,7 +807,7 @@
 		};
 		450FAD8A277C4BBF00C3060D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 029A37AD9E3A76E5423BF6DB /* Pods-AppcircleTests.debug.xcconfig */;
+			baseConfigurationReference = 7FF393CF0D4706C06B266F11 /* Pods-AppcircleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -827,7 +827,7 @@
 		};
 		450FAD8B277C4BBF00C3060D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2068873229B336111CE50B13 /* Pods-AppcircleTests.release.xcconfig */;
+			baseConfigurationReference = 831FBECDDC894AA047F07569 /* Pods-AppcircleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -847,7 +847,7 @@
 		};
 		450FAD8D277C4BBF00C3060D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03AFC84C5F08F76D982AA116 /* Pods-Appcircle-AppcircleUITests.debug.xcconfig */;
+			baseConfigurationReference = 2DAB4160FB94E1635431D897 /* Pods-Appcircle-AppcircleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -865,7 +865,7 @@
 		};
 		450FAD8E277C4BBF00C3060D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 593855C4E49FDAA516EB1ED7 /* Pods-Appcircle-AppcircleUITests.release.xcconfig */;
+			baseConfigurationReference = 5A8821616204F07CDB2418AD /* Pods-Appcircle-AppcircleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
